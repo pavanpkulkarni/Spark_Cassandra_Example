@@ -35,6 +35,7 @@ dependencies{
 
 	provided 'org.apache.spark:spark-core_2.11:2.2.1'
 	provided 'org.apache.spark:spark-sql_2.11:2.2.1'
+	provided 'org.apache.spark:spark-catalyst_2.11:2.2.1'
 	provided  group: 'com.datastax.spark', name: 'spark-cassandra-connector_2.11', version: '2.0.7'
 
 }
