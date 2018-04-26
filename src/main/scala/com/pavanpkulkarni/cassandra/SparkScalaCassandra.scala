@@ -21,7 +21,6 @@ object SparkCassandra {
         val spark = SparkSession
             .builder()
             .master("local")
-            .master("local")
             .appName("Spark_Cassandra")
             .config("spark.cassandra.connection.host", "localhost")
             .getOrCreate()
